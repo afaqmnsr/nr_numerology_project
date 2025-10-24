@@ -12,7 +12,7 @@ Study of 5G NR **numerology (SCS)**, **mobility (TDL-A)**, and **HARQ** affect *
 ## Project Structure
 - `run_awgn_baseline.m` - AWGN baseline study (Afaq) **DONE**
 - `run_tdlA_mobility.m` - TDL-A + mobility study (Said) **TODO**
-- `run_harq_study.m` - HARQ study (Sirina) **TODO**
+- `run_harq_study.m` - HARQ study (Sirina) **DONE**
 - `common_config.m` - Shared parameters **DONE**
 - `utils/` - Helper functions **DONE**
 
@@ -38,18 +38,18 @@ Study of 5G NR **numerology (SCS)**, **mobility (TDL-A)**, and **HARQ** affect *
 
 **Template**: `run_tdlA_mobility.m` (empty, needs implementation)
 
-### Sirina - HARQ Study (TODO)
+### Sirina - HARQ Study (COMPLETED)
 **Scenarios**: Pick SCS = 30 kHz; TDL-A; SNR –5:2:30 dB; compare HARQ off vs on
 
-**Expected Deliverables**:
+**Deliverables**:
 - Fig R1: Latency vs SNR (HARQ off/on)
 - Fig R2: Throughput vs SNR (HARQ off/on)
 - Fig R3: Latency CDF at mid SNR (12 dB), off vs on
 
-**Template**: `run_harq_study.m` (empty, needs implementation)
+**Run**: `run_harq_study.m` 
 
 ## Next Steps
 1. Afaq: COMPLETED - Baseline script run, results generated
 2. Said: Implement TDL-A + mobility simulation
-3. Sirina: Implement HARQ study
-4. Compile final report with all figures
+3. Sirina: COMPLETED - HARQ study
+4. FIRST DRAFT DONE - Compile final report with all figures
