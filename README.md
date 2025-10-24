@@ -1,7 +1,8 @@
 # 5G Numerology Project - DAT610
 
 ## Project Overview
-Study of 5G Numerology (SCS) with Mobility + HARQ using MATLAB 5G Toolbox.
+Study of 5G NR **numerology (SCS)**, **mobility (TDL-A)**, and **HARQ** affect **BLER**, **throughput**, and **latency** using **MATLAB scripts** 
+
 
 **Group**: Afaq, Said, Sirina  
 **Tech**: Numerology (Sub-carrier spacing)  
