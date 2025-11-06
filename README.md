@@ -11,7 +11,7 @@ Study of 5G NR **numerology (SCS)**, **mobility (TDL-A)**, and **HARQ** affect *
 
 ## Project Structure
 - `run_awgn_baseline.m` - AWGN baseline study (Afaq) **DONE**
-- `run_tdlA_mobility.m` - TDL-A + mobility study (Said) **TODO**
+- `run_tdlA_mobility.m` - TDL-A + mobility study (Said) **DONE**
 - `run_harq_study.m` - HARQ study (Sirina) **DONE**
 - `common_config.m` - Shared parameters **DONE**
 - `utils/` - Helper functions **DONE**
@@ -28,7 +28,7 @@ Study of 5G NR **numerology (SCS)**, **mobility (TDL-A)**, and **HARQ** affect *
 
 **Run**: `run('run_awgn_baseline.m')`
 
-### Said - TDL-A + Mobility (TODO)
+### Said - TDL-A + Mobility (COMPLETED)
 **Scenarios**: SCS = 15/30/60; TDL-A; SNR –5:2:30 dB; mobility 0 and 120 km/h; HARQ off
 
 **Expected Deliverables**:
@@ -36,7 +36,7 @@ Study of 5G NR **numerology (SCS)**, **mobility (TDL-A)**, and **HARQ** affect *
 - Fig S2: BLER vs SNR (TDL-A, 120 km/h) for 15/30/60
 - Fig S3: Throughput vs SNR (TDL-A, 0 vs 120 km/h) at one SCS
 
-**Template**: `run_tdlA_mobility.m` (empty, needs implementation)
+**Run**: `run_tdlA_mobility.m` 
 
 ### Sirina - HARQ Study (COMPLETED)
 **Scenarios**: Pick SCS = 30 kHz; TDL-A; SNR –5:2:30 dB; compare HARQ off vs on
