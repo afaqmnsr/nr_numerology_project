@@ -28,7 +28,7 @@ Study of 5G NR **numerology (SCS)**, **mobility (TDL-A)**, and **HARQ** affect *
 
 **Run**: `run('run_awgn_baseline.m')`
 
-### Said - TDL-A + Mobility (TODO)
+### Said - TDL-A + Mobility (COMPLETED)
 **Scenarios**: SCS = 15/30/60; TDL-A; SNR –5:2:30 dB; mobility 0 and 120 km/h; HARQ off
 
 **Expected Deliverables**:
